@@ -1,0 +1,48 @@
+.profile profile {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#view {
+    overflow: scroll;
+    position: relative;
+}
+
+/*
+Background Style
+*/
+
+.profile {
+    width: 500px;
+    height: 500px;
+    margin: 125px auto 0;
+    background-color: turquoise;
+    border-radius: 15px;
+    box-shadow: 0 3px 3px turquoise;
+    font-size: 18px;
+    margin-bottom: 125px;
+}
+
+.profile .card {
+    position: relative;
+    text-align: center;
+    height: 70px;
+}
+
+.profile .card .picture {
+    width: 150px;
+    height: 160px;
+    border-radius: 1000px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    padding-left: 15px;
+    line-height: 15px;
+}
